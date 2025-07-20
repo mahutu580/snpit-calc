@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>STP 換算ツール for MEXC</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>STP 換算ツール(MEXCレート基準)</h1>
+    <div class="input-area">
+        <input type="number" id="stp-input" placeholder="STPの数量を入力">
+        <button id="calc-button">計算する</button>
+    </div>
+    <div id="result-area">
+        <p>USDT換算: <span id="usdt-value">-</span>USDT</p>
+        <P>日本円換算(目安):<span id="jpy-value">-</span>円</P>
+    </div>
+    <p class="api-note">レート情報: MEXC & ExchangeRate-API</p>
+    <script src="script.js"></script> 
+</body>
+</html>
