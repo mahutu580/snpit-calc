@@ -48,7 +48,7 @@ button {
 }
 
 .jpy-result span {
-    color: #e74c3c; /* 赤色で強調 */
+    color: #0000FF; /* 青色で強調 */
     font-size: 32px; /* 数字はさらに大きく */
 }
 
