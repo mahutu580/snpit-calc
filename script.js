@@ -35,8 +35,8 @@ calcButton.addEventListener('click', async () => {
         const jpyValue = usdtValue * usdToJpyRate;
 
         // 結果を画面に表示
-        usdtValueSpan.textContent = usdtValue.toFixed(4);
-        jpyValueSpan.textContent = jpyValue.toFixed(2);
+        usdtValueSpan.textContent = usdtValue.toFixed(2);
+        jpyValueSpan.textContent = jpyValue.toFixed(0);
         snptUsdtRateSpan.textContent = snptToUsdtRate.toFixed(6); // 変更
         usdJpyRateSpan.textContent = usdToJpyRate.toFixed(2);
 

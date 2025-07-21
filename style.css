@@ -40,3 +40,23 @@ button {
     font-size: 12px;
     color: #7f8c8d;
 }
+
+/* 日本円の結果を目立たせる */
+.jpy-result {
+    font-size: 24px; /* 文字を大きく */
+    font-weight: bold; /* 太字に */
+}
+
+.jpy-result span {
+    color: #e74c3c; /* 赤色で強調 */
+    font-size: 32px; /* 数字はさらに大きく */
+}
+
+/* 補足説明のスタイル */
+.note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    max-width: 500px;
+    text-align: center;
+}
